@@ -144,6 +144,14 @@ students = int(input("How many students on the course?"))
 size = int(input("Desired group size?"))
 print(f"Number of groups formed: {(students + (size-1)) // size}")
 
+# Conditional Statements
+
+# Orwell
+number = int(input("Please type in a number:"))
+if number == 1984:
+    print("Orwell")
+
+# 
 
 
 
