@@ -139,6 +139,10 @@ print("Average food expenditure:")
 print(f"Daily: {budget / 7 + days * price / 7} euros")
 print(f"Weekly: {budget + days * price} euros")
 
+# Students in groups
+students = int(input("How many students on the course?"))
+size = int(input("Desired group size?"))
+print(f"Number of groups formed: {(students + (size-1)) // size}")
 
 
 
