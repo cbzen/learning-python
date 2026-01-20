@@ -130,6 +130,15 @@ sum = int(number1 + number2 + number3 + number4)
 mean = ((number1 + number2 + number3 + number4) / 4)
 print(f"The sum of the numbers is {sum} and the mean is {mean}")
 
+# Food expenditure
+days = int(input("How many times a week do you eat at the student cafeteria?"))
+price = float(input("The price of a typical student lunch?"))
+budget = float(input("How much money do you spend on groceries in a week?"))
+print("")
+print("Average food expenditure:")
+print(f"Daily: {budget / 7 + days * price / 7} euros")
+print(f"Weekly: {budget + days * price} euros")
+
 
 
 
