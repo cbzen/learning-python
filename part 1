@@ -175,7 +175,17 @@ if number < 10:
 print("Thank you!")
 
 # 
+number1 = int(input("Number 1:"))
+number2 = int(input("Number 2:"))
+operation = input("Operation:")
 
+if operation in ["add", "subtract", "multiply"]:
+    print(f"Number 1: {number1}")
+    print(f"Number 2: {number2}")
+    print(f"Operation: {operation}")
+
+if operation is "add":
+    print(f"{number1} + {number2} = {number1 + number 2}")
 
 
 
